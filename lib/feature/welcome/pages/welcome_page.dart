@@ -10,7 +10,7 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Coloors.backgroundDark,
+      //backgroundColor: Coloors.backgroundDark,
       body: Column(children: [
         Expanded(
           child: Align(
@@ -28,7 +28,7 @@ class WelcomePage extends StatelessWidget {
         Expanded(
             child: Column(
           children: [
-            Text(
+            const Text(
               'Welcome to Multi Chat',
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
